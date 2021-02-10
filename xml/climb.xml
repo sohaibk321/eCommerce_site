@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<inventory xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <item>
+    <id>1</id>
+    <name>Carabiner</name>
+    <image>./images/products/climbing_carabiner.png</image>
+    <price>$14.99</price>
+    <keywords>climb, carabiner, climbing</keywords>
+  </item>
+  <item>
+    <id>2</id>
+    <name>Rope</name>
+    <image>./images/products/climbing_rope.png</image>
+    <price>$79.99</price>
+    <keywords>climb, rope, climbing</keywords>
+  </item>
+  <item>
+    <id>3</id>
+    <name>Climbing Shoes</name>
+    <image>./images/products/climbing_shoes.png</image>
+    <price>$129.99</price>
+    <keywords>climb, shoes, climbing</keywords>
+  </item>

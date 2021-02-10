@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<inventory xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <item>
+    <id>1</id>
+    <name>Viking Battleship</name>
+    <image>./images/products/canoe.png</image>
+    <price>$2999.99</price>
+    <keywords>ship, viking, canoe</keywords>
+  </item>

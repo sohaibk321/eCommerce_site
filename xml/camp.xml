@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<inventory xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <item>
+    <id>1</id>
+    <name>Small Tent</name>
+    <image>./images/products/small_tent.png</image>
+    <price>$79.99</price>
+    <keywords>tent</keywords>
+  </item>
+  <item>
+    <id>2</id>
+    <name>Large Tent</name>
+    <image>./images/products/large_tent.png</image>
+    <price>$199.99</price>
+    <keywords>tent</keywords>
+  </item>
+  <item>
+    <id>3</id>
+    <name>Fire Starter Kit</name>
+    <image>./images/products/fire_starter.png</image>
+    <price>$49.99</price>
+    <keywords>fire kit, fire starter, camping, camp, fire starter kit</keywords>
+  </item>

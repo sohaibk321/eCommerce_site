@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<inventory xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <item>
+    <id>1</id>
+    <name>Bicycle</name>
+    <image>./images/products/bike_1.png</image>
+    <price>$119.99</price>
+    <keywords>bike, bicycle</keywords>
+  </item>
+  <item>
+    <id>2</id>
+    <name>Bicycle</name>
+    <image>./images/products/bike_2.png</image>
+    <price>$139.99</price>
+    <keywords>bike, bicycle</keywords>
+  </item>
+  <item>
+    <id>3</id>
+    <name>Bicycle</name>
+    <image>./images/products/bike_3.png</image>
+    <price>$259.99</price>
+    <keywords>bike, bicycle</keywords>
+  </item>

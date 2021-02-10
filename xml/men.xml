@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<inventory xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <item>
+    <id>1</id>
+    <name>Outdoor Jacket W/ Hoodie</name>
+    <image>./images/products/mens_jacket.png</image>
+    <price>$119.99</price>
+    <keywords>jacket</keywords>
+  </item>
+  <item>
+    <id>2</id>
+    <name>Outdoor Jacket</name>
+    <image>./images/products/mens_jacket_2.png</image>
+    <price>$89.99</price>
+    <keywords>jacket</keywords>
+  </item>
+  <item>
+    <id>3</id>
+    <name>Joggers</name>
+    <image>./images/products/mens_joggers.png</image>
+    <price>$89.99</price>
+    <keywords>jacket</keywords>
+  </item>
+  <item>
+    <id>4</id>
+    <name>Joggers</name>
+    <image>./images/products/mens_joggers2.png</image>
+    <price>$89.99</price>
+    <keywords>jacket</keywords>
+  </item>

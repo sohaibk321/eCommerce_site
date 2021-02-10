@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<inventory xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <item>
+    <id>1</id>
+    <name>Snow Boots</name>
+    <image>./images/products/snow_boots.png</image>
+    <price>$119.99</price>
+    <keywords>snow, boots</keywords>
+  </item>
+  <item>
+    <id>1</id>
+    <name>Snow Boots</name>
+    <image>./images/products/snow_boots2.png</image>
+    <price>$139.99</price>
+    <keywords>snow, boots</keywords>
+  </item>
+  <item>
+    <id>1</id>
+    <name>Snow Shoes</name>
+    <image>./images/products/snow_shoes.png</image>
+    <price>$89.99</price>
+    <keywords>snow shoes, snow</keywords>
+  </item>
