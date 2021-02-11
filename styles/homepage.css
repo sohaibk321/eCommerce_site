@@ -29,6 +29,9 @@ header input {
   width: 200px;
 }
 
+button {
+  cursor: pointer;
+}
 /* Styling the search bar */
 .search_bar input {
   height: 30px;
@@ -41,10 +44,9 @@ header input {
   width: 38px;
   height: 38px;
   top: 37px;
-  cursor: pointer;
   position: relative;
   left: -5px;
-  background-image: "/eCommerce_site/images/search_icon.png"
+  background-image: "/images/search_icon.png"
 }
 /* Styling the navigation bar */
 .nav_bar {
@@ -61,31 +63,41 @@ header input {
 
 .nav_bar a {
   float: left;
-  color: white;
+  color: #4c96ff;
   text-align: center;
   padding: 14px 16px;
-  font-size: 17px;
+  font-family: 'Georgia';
+  font-size: 19px;
   text-decoration: none;
 }
+
 .nav_bar a:hover {
   background-color: #4c96d7;
   color: black;
   border-radius: 25%;
+  cursor: pointer;
 }
 
 .sign_in {
   float: right;
+
 }
 
-.sign_in input {
-  width: 90px;
-  top: 8px;
+i {
+  color: #4c96ff;
+  margin: 4px;
 }
 
-.sign_in button {
-  position: relative;
-  top: 8px;
-  background: #ccc;
+.sign_in img {
+  width: 50px;
+  top: 50px;
+  display: flex;
+
+}
+
+.cart {
+  float: right;
+  cursor: pointer;
 }
 
 .page_content {
@@ -110,4 +122,89 @@ header input {
   max-width: 100%;
   max-height: 100vh;
   margin: auto;
+}
+
+.open-button {
+  background-color: #555;
+  color: white;
+  margin: 4px;
+  padding: 12px 8px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  float: right;
+  top: 23px;
+  right: 28px;
+  width: 50px;
+}
+
+/* The popup form - hidden by default */
+.form-popup {
+  display: none;
+  position: fixed;
+  top: 0;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+}
+
+/* Add styles to the form container */
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color: white;
+}
+
+/* Full-width input fields */
+.form-container input[type=text], .form-container input[type=password] {
+  width: 90%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+/* When the inputs get focus, do something */
+.form-container input[type=text]:focus, .form-container input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit/login button */
+.form-container .btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+  background-color: red;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+
+/* The Close Button */
+.close {
+ /* Position it in the top right corner outside of the modal */
+ position: absolute;
+ right: 25px;
+ top: 0;
+ color: #000;
+ font-size: 35px;
+ font-weight: bold;
+}
+
+/* Close button on hover */
+.close:hover,
+.close:focus {
+ color: red;
+ cursor: pointer;
 }

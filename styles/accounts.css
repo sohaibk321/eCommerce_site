@@ -1,0 +1,13 @@
+.page_data {
+  margin: 5px;
+  position: relative;
+  top: 130px;
+  color: black;
+  text-align: left;
+  border-radius: 2%;
+  background-color: gray;
+}
+
+.page_data p {
+  position: relative;
+}
