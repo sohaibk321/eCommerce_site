@@ -1,13 +1,31 @@
+header {
+  margin-top: -21px;
+}
+.page {
+  margin: 0;
+  padding: 0;
+}
 .page_data {
-  margin: 5px;
+  margin: 5px 10px;
   position: relative;
   top: 130px;
   color: black;
   text-align: left;
-  border-radius: 2%;
-  background-color: gray;
+  background-color: #c7cbd1;
 }
 
-.page_data p {
+.page_data > * {
   position: relative;
+  margin-left: 10px;
+}
+
+.page_data button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 6px 8px;
+  border: none;
+  cursor: pointer;
+  width: 10%;
+  min-width: 100px;
 }

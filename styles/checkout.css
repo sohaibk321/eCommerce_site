@@ -1,0 +1,90 @@
+.page {
+  margin: 0;
+  padding: 0;
+}
+.page input {
+  float: right;
+  max-width: 40px;
+}
+
+.page label b {
+  bottom: 160px;
+  position: relative;
+  margin-left: 10px;
+}
+
+.page img {
+  min-width: 180px;
+  max-width: 15%;
+  height: auto;
+}
+
+.page_data {
+  position: relative;
+  top: 130px;
+  color: black;
+  text-align: left;
+}
+
+.shipping_process {
+  columns: 20px 3;
+}
+
+.shipping_process h2 {
+  text-align: center;
+  position: relative;
+  border-bottom: black solid 1px;
+  width: 25vw;
+  margin-left: 10px;
+}
+
+/* Realign the first step in the full checkout header */
+#cart_info {
+  bottom: 20px;
+}
+
+.cart_info {
+  margin: 10px;
+  width: 40vw;
+  max-width: 510px;
+  position: absolute;
+}
+
+.cart_info p {
+  bottom: 145px;
+  position: relative;
+  margin-left: 10px;
+  max-width: 200px;
+  left: 185px;
+}
+
+.cart_info button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  min-width: 35%;
+}
+
+#cancel {
+  background-color: #f44336;
+}
+.costs {
+  float: right;
+  margin: 10px;
+  width: 250px;
+}
+
+h3 {
+  border-bottom: black solid 1px;
+  min-width: 250px;
+  max-width: 15%;
+  height: auto;
+  text-align: left;
+}
+
+.page form {
+  height: 180px;
+}

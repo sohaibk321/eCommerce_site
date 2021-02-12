@@ -28,6 +28,6 @@ $(document).ready(function() {
   });
 
   $("#cart").click(function() {
-    $(".page").load("/pages/account.html")
+    $(".page").load("/pages/checkout.html")
   });
 });
